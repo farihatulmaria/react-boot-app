@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Acorddian from './components/acroddin/Acorddian';
+import logo from './logo.svg';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,9 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
+      <Acorddian/>
     </div>
   );
 }
